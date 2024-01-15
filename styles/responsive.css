@@ -1,0 +1,30 @@
+@media screen and (max-width:600px) {
+
+    nav .logo {
+        width: unset;
+    }
+
+    nav .logo .logo-img {
+        width: 28px;
+        height: 33px;
+    }
+
+    nav .logo .logo-title {
+        font-size: 1.4rem;
+    }
+
+    nav ul {
+        width: unset;
+
+    }
+
+    nav ul li a {
+        display: none;
+    }
+
+    nav ul li .menu-icon {
+        width: 16px;
+        height: 10px;
+        display: contents;
+    }
+}

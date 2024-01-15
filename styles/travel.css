@@ -1,0 +1,46 @@
+header nav {
+    width: 81%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3.1rem auto;
+}
+
+nav .logo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav .logo .logo-title {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+nav ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav ul li .home {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+nav ul li .menu-icon{
+    display: none;
+}
