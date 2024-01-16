@@ -20,6 +20,12 @@ body{
     border: 2px solid red;
 }
 
+.container{
+    width: 81%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
 .primary-color{
     color: var(--primary-color);
 }

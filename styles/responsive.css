@@ -1,5 +1,7 @@
 @media screen and (max-width:600px) {
-
+    header nav {
+        margin-bottom: 1rem;
+    }
     nav .logo {
         width: unset;
     }
@@ -26,5 +28,21 @@
         width: 16px;
         height: 10px;
         display: contents;
+    }
+
+    header .banner{
+        padding: 5px 0px;
+    }
+    .banner .banner-content{
+        margin: 32px auto;
+    }
+    .banner .banner-content .banner-title {
+        font-size: 1.4rem;
+    }
+
+    .banner .finder {
+        flex-direction: column;
+        margin: 2rem ;
+        padding: 16px;
     }
 }
