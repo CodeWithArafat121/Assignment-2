@@ -65,14 +65,34 @@
         width: 100%;
         margin-bottom: 16px;
     }
+    .destination-info .destination-images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     .destination-info .destination-images img{
-        width: 335px ;
         height: 175px;
         object-fit: unset;
+    }
+    .destination-info .destination-images .country-name{
+        font-size: 20px;
+    }
+    #hotel-details .hotel-info .hotel-services{
+        flex-direction: column;
+    }
+    
+    .hotel-info .hotel-heading h1{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .hotel-info .hotel-heading p{
+        width: 100%;
         margin-bottom: 16px;
     }
-    .destination-info .destination-images {
-        display: block;
-        margin-bottom: 16px;
-    }
+    .hotel-info .hotel-services .hotel-about,
+.hotel-map,
+.best-price{
+    width: unset;
+    padding: 32px 0px 32px 32px ;
+}
 }
