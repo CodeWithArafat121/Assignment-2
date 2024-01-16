@@ -76,6 +76,8 @@ header .banner {
 }
 
 .banner .finder {
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     gap: 1.5rem;
@@ -109,16 +111,6 @@ header .banner {
 }
 
 
-.banner .finder .button-4 {
-    color: #FFF;
-    font-size: 1rem;
-    font-weight: 700;
-    border-radius: 8px;
-    background: var(--primary-color);
-    padding: 16px 35px;
-    border: 0;
-}
-
 .banner .finder .button-2 i {
     margin-left: 4.6rem;
 }
@@ -130,3 +122,39 @@ header .banner {
 .banner .finder .button-4 i{
     margin-right: 8px;
 }
+
+#popular-tours{
+    margin: 100px 0;
+}
+
+#popular-tours .tours-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 53px;
+}
+
+.tours-content .tours-details{
+    width: 50%;
+}
+
+.tours-content .tours-details ul{
+    margin: 24px ;
+}
+
+.tours-content .tours-details ul *{
+    margin-bottom: 12px;
+}
+
+.tours-content .tours-details .para{
+    margin-bottom: 32px;
+}
+
+.tours-content .tours-img {
+    width: 50%
+}
+
+.tours-content .tours-img img{
+    width: 100%;
+    height: 100%;
+}
+

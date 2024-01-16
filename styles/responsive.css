@@ -1,6 +1,6 @@
 @media screen and (max-width:600px) {
     header nav {
-        margin-bottom: 1rem;
+        margin: 19px;
     }
     nav .logo {
         width: unset;
@@ -41,8 +41,20 @@
     }
 
     .banner .finder {
+        width: 90%;
         flex-direction: column;
-        margin: 2rem ;
+        margin: 1rem auto;
         padding: 16px;
+    }
+    #popular-tours{
+        margin: 24px 0;
+    }
+    #popular-tours .tours-content{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .tours-content .tours-details,
+    .tours-content .tours-img{
+        width: unset;
     }
 }
