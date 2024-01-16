@@ -57,4 +57,22 @@
     .tours-content .tours-img{
         width: unset;
     }
+    .destination-info .destination-heading h1{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .destination-info .destination-heading p{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .destination-info .destination-images img{
+        width: 335px ;
+        height: 175px;
+        object-fit: unset;
+        margin-bottom: 16px;
+    }
+    .destination-info .destination-images {
+        display: block;
+        margin-bottom: 16px;
+    }
 }
