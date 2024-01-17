@@ -172,4 +172,44 @@
         font-size: 16px;
         margin-bottom: 16px;
     }
+
+
+    #sample-place {
+        margin: 24px 0;
+    }
+
+
+    #sample-place .place-info{
+        flex-direction: column;
+    }
+    .place-info .place-details,
+    .place-info .place-img{
+        width: unset;
+    }
+
+    .place-info .place-details h1{
+        font-size: 20px;
+    }
+
+    #newsletter .newsletter-details{
+        flex-direction: column;
+    }
+
+    .newsletter-details .newsletter-info,
+    .newsletter-details .newsletter-img {
+        width: unset;
+    }
+
+    .newsletter-details .newsletter-img .discount-card{
+        width: 214px;
+    }
+    .newsletter-details .newsletter-img .discount-card p{
+        font-size: 15px;
+    }
+    .newsletter-details .newsletter-img .discount-card h2{
+        font-size: 21px;
+    }
+    .newsletter-details .newsletter-img .discount-card {
+        bottom: 45px;
+    }
 }
