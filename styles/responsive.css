@@ -1,4 +1,5 @@
 @media screen and (max-width:600px) {
+
     /* Header section start */
     header nav {
         margin: 19px;
@@ -50,7 +51,10 @@
         margin: 1rem auto;
         padding: 16px;
     }
+
     /* Header section end */
+
+    
 
 
     /* popular-tours section start */
@@ -95,6 +99,9 @@
 
     /* popular-tours section end */
 
+
+
+
     /* hotel-details section start */
 
     #hotel-details {
@@ -126,11 +133,18 @@
 
 
 
-    #deals .deals-content .deals-heading  {
+    /* deals section start */
+
+    #deals .deals-content .deals-heading {
         text-align: center;
     }
+
     .deals-content .deals-heading h1 {
         font-size: 20px;
+    }
+
+    .deals-content .deals-heading p {
+        width: unset;
     }
 
     #deals .hotel-info-1 {
@@ -140,6 +154,7 @@
     #deals .hotel-info-2 {
         padding: 144px 16px 16px 16px;
     }
+
     #deals .hotel-info-3 {
         padding: 144px 16px 16px 16px;
     }
@@ -148,6 +163,7 @@
         width: unset;
         padding: 25px 0px 25px 25px;
     }
+
     #deals ul {
         flex-direction: column;
         margin-bottom: 18px;
@@ -173,25 +189,37 @@
         margin-bottom: 16px;
     }
 
+    /* deals section end */
+
+
+/* sample-place section start */
 
     #sample-place {
         margin: 24px 0;
     }
 
 
-    #sample-place .place-info{
+    #sample-place .place-info {
         flex-direction: column;
     }
+
     .place-info .place-details,
-    .place-info .place-img{
+    .place-info .place-img {
         width: unset;
     }
 
-    .place-info .place-details h1{
+    .place-info .place-details h1 {
         font-size: 20px;
     }
 
-    #newsletter .newsletter-details{
+    /* sample-place section end */
+
+
+
+    /* newsletter  section start */
+
+
+    #newsletter .newsletter-details {
         flex-direction: column;
     }
 
@@ -200,16 +228,48 @@
         width: unset;
     }
 
-    .newsletter-details .newsletter-img .discount-card{
+    .newsletter-details .newsletter-img .discount-card {
         width: 214px;
     }
-    .newsletter-details .newsletter-img .discount-card p{
+
+    .newsletter-details .newsletter-img .discount-card p {
         font-size: 15px;
     }
-    .newsletter-details .newsletter-img .discount-card h2{
+
+    .newsletter-details .newsletter-img .discount-card h2 {
         font-size: 21px;
     }
+
     .newsletter-details .newsletter-img .discount-card {
         bottom: 45px;
     }
+
+    /* newsletter  section end */
+
+
+
+    /* footer  section start */
+
+    footer .footer-logo {
+        padding-top: 33px;
+    }
+
+    footer .footer-description {
+        width: unset;
+    }
+
+    footer .social-icon {
+        padding-bottom: 24px;
+    }
+
+    footer .copyright-waring {
+        padding-top: 24px;
+        padding-bottom: 30px;
+    }
+
+    footer {
+        margin-top: 24px;
+    }
+
+    /* footer  section end */
 }
