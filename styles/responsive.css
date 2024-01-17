@@ -54,7 +54,7 @@
 
     /* Header section end */
 
-    
+
 
 
     /* popular-tours section start */
@@ -192,7 +192,7 @@
     /* deals section end */
 
 
-/* sample-place section start */
+    /* sample-place section start */
 
     #sample-place {
         margin: 24px 0;
@@ -247,6 +247,23 @@
     /* newsletter  section end */
 
 
+
+    .testimonial-details {
+        flex-direction: column;
+        width: unset;
+    }
+
+    .container .testimonial-reviews .review-1,
+    .review-2 {
+        width: unset;
+    }
+
+    .container .testimonial-reviews .review-1 {
+        margin-left: 0px;
+    }
+    .testimonial-reviews .review-heading {
+        width: unset;
+     }
 
     /* footer  section start */
 
