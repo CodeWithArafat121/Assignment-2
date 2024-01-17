@@ -217,7 +217,9 @@
 
 
     /* newsletter  section start */
-
+    #newsletter{
+        margin-bottom: 30px;
+    }
 
     #newsletter .newsletter-details {
         flex-direction: column;
@@ -247,6 +249,9 @@
     /* newsletter  section end */
 
 
+    /* testimonial  section start */
+
+
 
     .testimonial-details {
         flex-direction: column;
@@ -258,12 +263,27 @@
         width: unset;
     }
 
-    .container .testimonial-reviews .review-1 {
+    .container .testimonial-reviews .review-1
+     {
         margin-left: 0px;
+        text-align: center;
+    }
+
+    .testimonial-reviews .review-2 {
+        margin-top: 24px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .testimonial-reviews .review-content {
+        padding: 0px;
+        justify-content: center;
     }
     .testimonial-reviews .review-heading {
         width: unset;
      }
+
+     /* testimonial section  end */
 
     /* footer  section start */
 
