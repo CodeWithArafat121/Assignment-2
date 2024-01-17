@@ -1,7 +1,9 @@
 @media screen and (max-width:600px) {
+    /* Header section start */
     header nav {
         margin: 19px;
     }
+
     nav .logo {
         width: unset;
     }
@@ -30,12 +32,14 @@
         display: contents;
     }
 
-    header .banner{
+    header .banner {
         padding: 5px 0px;
     }
-    .banner .banner-content{
+
+    .banner .banner-content {
         margin: 32px auto;
     }
+
     .banner .banner-content .banner-title {
         font-size: 1.4rem;
     }
@@ -46,53 +50,126 @@
         margin: 1rem auto;
         padding: 16px;
     }
-    #popular-tours{
+    /* Header section end */
+
+
+    /* popular-tours section start */
+    #popular-tours {
         margin: 24px 0;
     }
-    #popular-tours .tours-content{
+
+    #popular-tours .tours-content {
         flex-direction: column;
         gap: 24px;
     }
+
     .tours-content .tours-details,
-    .tours-content .tours-img{
+    .tours-content .tours-img {
         width: unset;
     }
-    .destination-info .destination-heading h1{
+
+    .destination-info .destination-heading h1 {
         font-size: 20px;
         margin-bottom: 15px;
     }
-    .destination-info .destination-heading p{
+
+    .destination-info .destination-heading p {
         width: 100%;
         margin-bottom: 16px;
     }
+
     .destination-info .destination-images {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    .destination-info .destination-images img{
+
+    .destination-info .destination-images img {
         height: 175px;
         object-fit: unset;
     }
-    .destination-info .destination-images .country-name{
+
+    .destination-info .destination-images .country-name {
         font-size: 20px;
     }
-    #hotel-details .hotel-info .hotel-services{
+
+    /* popular-tours section end */
+
+    /* hotel-details section start */
+
+    #hotel-details {
+        margin: 0px;
+    }
+
+    #hotel-details .hotel-info .hotel-services {
         flex-direction: column;
     }
-    
-    .hotel-info .hotel-heading h1{
+
+    .hotel-info .hotel-heading h1 {
         font-size: 20px;
         margin-bottom: 15px;
     }
-    .hotel-info .hotel-heading p{
+
+    .hotel-info .hotel-heading p {
         width: 100%;
         margin-bottom: 16px;
     }
+
     .hotel-info .hotel-services .hotel-about,
-.hotel-map,
-.best-price{
-    width: unset;
-    padding: 32px 0px 32px 32px ;
-}
+    .hotel-map,
+    .best-price {
+        width: unset;
+        padding: 26px 0px 25px 25px;
+    }
+
+    /* hotel-details section end */
+
+
+
+    #deals .deals-content .deals-heading  {
+        text-align: center;
+    }
+    .deals-content .deals-heading h1 {
+        font-size: 20px;
+    }
+
+    #deals .hotel-info-1 {
+        padding: 144px 16px 16px 16px;
+    }
+
+    #deals .hotel-info-2 {
+        padding: 144px 16px 16px 16px;
+    }
+    #deals .hotel-info-3 {
+        padding: 144px 16px 16px 16px;
+    }
+
+    #deals .hotel-content {
+        width: unset;
+        padding: 25px 0px 25px 25px;
+    }
+    #deals ul {
+        flex-direction: column;
+        margin-bottom: 18px;
+    }
+
+    #deals ul li {
+        justify-content: flex-start;
+    }
+
+    #deals .hide {
+        display: none;
+    }
+
+    .deals-content .hotel-info-1 p,
+    .hotel-info-2 p {
+        margin-top: 0px;
+        margin-bottom: 12px;
+    }
+
+
+    #deals .price {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
 }
